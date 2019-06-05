@@ -1,0 +1,353 @@
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+  #main-header .main-nav {
+    display: block;
+  }
+
+  #main-header .logo {
+    text-align: center;
+  }
+
+  #main-header .main-nav .list {
+   justify-content: center;
+   margin: 1rem 0;
+  }
+  #main-header .header-content {
+    display: block;
+    height: 50vh;
+  }
+  #main-header .header-content h1 {
+    font-size: 1.8rem;
+    color: red;
+    padding: 0;
+    margin: 3rem 0;
+  }
+  #main-header .header-content form {
+      padding: 0;
+      background: none;
+      border-radius: 2px;
+  }
+  #main-header .header-content form input {
+    padding: 0.8rem 0.5rem;
+  }
+  #main-header .header-content form input[type="email"] {
+    display: block;
+    margin: auto;
+  }
+  #main-header .header-content form input[type="submit"] {
+    margin-top: 1.5rem;
+  }
+  #who-we-are {
+    padding: 1rem;
+    text-align: center;
+  }
+  #who-we-are h1 {
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+  #why-with-us .container {
+    display: block;
+    padding: 0;
+  }
+  #our-professor h1 {
+    font-size: 1.8rem;
+    padding: 2rem;
+  }
+  #our-professor .professor-content {
+    flex-flow: column;
+    align-content: center;
+  }
+  #our-professor .professor-content .card {
+    margin: 0;
+    display: flex;
+  }
+
+  #our-professor .professor-content .card {
+    border-radius: 0;
+  }
+  #our-professor .professor-content .card .card-img img {
+    border-radius: 0;
+  }
+  #live-experiment h1 {
+    font-size: 1.8rem;
+    padding: 2rem;
+  }
+
+  #live-experiment .experiment-content {
+    flex-flow: column;
+    padding-bottom: 2rem;
+  }
+  #live-experiment .experiment-content img {
+    flex: unset;
+    max-width: 34%;
+    align-self: center;
+  }
+  #live-experiment .experiment-content .experiment-text h2 {
+    font-size: 1.5rem;
+  }
+  #live-experiment .experiment-content .experiment-text {
+    text-align: center;
+  }
+  #live-experiment .experiment-content.row-reversed {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #get-started .started-content h1 {
+    font-size: 1.8rem;
+    padding: 2rem;
+  }
+  #courses h1 {
+    font-size: 1.8rem;
+    padding: 2rem;
+  }
+  #courses .course-list {
+    flex-flow: column;
+  }
+
+  #courses .course-list .card {
+    margin: 0;
+  }
+  #courses .course-list .card h2 {
+    font-size: 1.5rem;
+  }
+  #courses .course-list .card .card-body {
+    padding: 0.5rem;
+  }
+  #courses .course-list .card p {
+    margin-top: 0.5rem;
+  }
+  #completation .container {
+    flex-direction: column;
+  }
+  #completation {
+    padding: 1rem;
+  }
+  #completation .container .item {
+    margin-bottom: 1rem;
+    border-right: unset;
+    border-bottom: 1px solid rgb(202, 202, 202);
+  }
+    #completation .container .item:last-child {
+      border-bottom: unset;
+    }
+  #courses {
+    padding-bottom: unset;
+  }
+ #testmonial h1 {
+   font-size: 1.8rem;
+   padding: 2rem;
+ }
+  #testmonial .test-content {
+    flex-direction: column;
+  }
+  #testmonial .test-content img {
+    margin: auto;
+    max-width: 33%;
+  }
+  #main-footer .contact.container {
+    flex-flow: column;
+  }
+  #main-footer .contact.container {
+    justify-content: unset;
+    align-items: unset;
+  }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    #main-header .main-nav {
+      display: block;
+    }
+
+    #main-header .logo {
+      text-align: center;
+    }
+
+    #main-header .main-nav .list {
+      justify-content: center;
+      margin: 1rem 0;
+    }
+
+    #main-header .header-content {
+      display: block;
+      height: 50vh;
+    }
+
+    #main-header .header-content h1 {
+      font-size: 1.8rem;
+      color: red;
+      padding: 0;
+      margin: 3rem 0;
+    }
+
+    #main-header .header-content form {
+      padding: 0;
+      background: none;
+      border-radius: 2px;
+    }
+
+    #main-header .header-content form input {
+      padding: 0.8rem 0.5rem;
+    }
+
+    #main-header .header-content form input[type="email"] {
+      display: block;
+      margin: auto;
+    }
+
+    #main-header .header-content form input[type="submit"] {
+      margin-top: 1.5rem;
+    }
+
+    #who-we-are {
+      padding: 1rem;
+      text-align: center;
+    }
+
+    #who-we-are h1 {
+      text-transform: capitalize;
+      font-size: 2rem;
+      font-weight: 300;
+    }
+
+    #why-with-us .container {
+      display: block;
+      padding: 0;
+    }
+#why-with-us .container .img img{
+  display: block;
+  margin: auto;
+  padding-top: 2rem;
+}
+    #our-professor h1 {
+      font-size: 1.8rem;
+      padding: 2rem;
+    }
+
+    #our-professor .professor-content {
+      flex-flow: column;
+      align-content: center;
+    }
+
+    #our-professor .professor-content .card {
+      margin: 0;
+      display: flex;
+    }
+
+    #our-professor .professor-content .card {
+      border-radius: 0;
+    }
+
+    #our-professor .professor-content .card .card-img img {
+      border-radius: 0;
+    }
+
+    #live-experiment h1 {
+      font-size: 1.8rem;
+      padding: 2rem;
+    }
+
+    #live-experiment .experiment-content {
+      flex-flow: column;
+      padding-bottom: 2rem;
+    }
+
+    #live-experiment .experiment-content img {
+      flex: unset;
+      max-width: 34%;
+      align-self: center;
+    }
+
+    #live-experiment .experiment-content .experiment-text h2 {
+      font-size: 1.5rem;
+    }
+
+    #live-experiment .experiment-content .experiment-text {
+      text-align: center;
+    }
+
+    #live-experiment .experiment-content.row-reversed {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    #get-started .started-content h1 {
+      font-size: 1.8rem;
+      padding: 2rem;
+    }
+
+    #courses h1 {
+      font-size: 1.8rem;
+      padding: 2rem;
+    }
+
+    #courses .course-list {
+      flex-flow: column;
+    }
+
+    #courses .course-list .card {
+      margin: 0;
+    }
+
+    #courses .course-list .card h2 {
+      font-size: 1.5rem;
+    }
+
+    #courses .course-list .card .card-body {
+      padding: 0.5rem;
+    }
+
+    #courses .course-list .card p {
+      margin-top: 0.5rem;
+    }
+
+    #completation .container {
+      flex-direction: column;
+    }
+
+    #completation {
+      padding: 1rem;
+    }
+
+    #completation .container .item {
+      margin-bottom: 1rem;
+      border-right: unset;
+      border-bottom: 1px solid rgb(202, 202, 202);
+    }
+
+    #completation .container .item:last-child {
+      border-bottom: unset;
+    }
+
+    #courses {
+      padding-bottom: unset;
+    }
+
+    #testmonial h1 {
+      font-size: 1.8rem;
+      padding: 2rem;
+    }
+
+    #testmonial .test-content {
+      flex-direction: column;
+    }
+
+    #testmonial .test-content img {
+      margin: auto;
+      max-width: 33%;
+    }
+
+    #main-footer .contact.container {
+      flex-flow: column;
+    }
+
+    #main-footer .contact.container {
+      justify-content: unset;
+      align-items: unset;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (min-width: 992px) {}

@@ -1,0 +1,412 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container {
+  max-width: 992px;
+  margin: auto;
+}
+
+/* Main header */
+#main-header {
+  background: url(../img/banner.jpg) no-repeat center center / cover;
+  color: #fff;
+}
+
+#main-header .main-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+#main-header .logo {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: 1.2rem 0;
+}
+
+#main-header .main-nav .list {
+  display: flex;
+  align-self: center;
+}
+
+#main-header .main-nav .list li {
+  list-style: none;
+  margin-right: 3rem;
+  text-transform: uppercase;
+}
+
+#main-header .main-nav .list li:last-child {
+  margin-right: 0;
+}
+
+#main-header .main-nav .list li a {
+  color: #fff;
+  text-decoration: none;
+}
+#main-header .main-nav .list li a:hover {
+  color: red;
+}
+#main-header .header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 85.4vh;
+  text-align: center;
+}
+#main-header .header-content h1 {
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+#main-header .header-content form {
+  padding: 0.7rem 0.5rem;
+  background: #fff;
+  border-radius: 5px;
+  margin-top: 1.8rem;
+}
+#main-header .header-content form input {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 0;
+}
+#main-header .header-content form input[type="submit"] {
+  padding: 0.8rem 1rem;
+  background: red;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* Who we are */
+#who-we-are {
+  padding: 3rem 0;
+  background: #ECF0F1;
+}
+#who-we-are h1 {
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  font-weight: 300;
+  padding: 1rem 0;
+
+}
+
+#who-we-are p {
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+#why-with-us .container {
+  display: flex;
+  padding: 3rem 0;
+}
+
+#why-with-us .container .img{
+  flex: 1;
+}
+
+#why-with-us .container .img img {
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+#why-with-us .container .text {
+  padding: 2rem;
+  flex: 1;
+}
+
+#why-with-us .container .text p:first-child {
+  color: red;
+  text-transform: capitalize;
+}
+
+#why-with-us .container .text h2 {
+  font-size: 1.6rem;
+  font-weight: 200;
+  text-transform: capitalize;
+}
+#why-with-us .container .text p {
+  padding-top: 1rem;
+  line-height: 1.8rem;
+  font-weight: 200;
+}
+
+/* Our professor */
+#our-professor {
+  background: #ECF0F1;
+  padding-bottom: 4rem;
+}
+#our-professor h1 {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-weight: 200;
+  padding: 3rem;
+}
+
+#our-professor .professor-content {
+  display: flex;
+}
+#our-professor .professor-content .card {
+  margin-right: 1.5rem;
+  background: #fff;
+  border-radius: 0.50rem;
+}
+#our-professor .professor-content .card:last-child {
+  margin-right: 0;
+}
+
+#our-professor .professor-content .card .card-img img {
+  max-width: 100%;
+  display: block;
+    border-radius: 0.50rem;
+}
+#our-professor .professor-content .card .card-body {
+  padding: 2rem;
+}
+#our-professor .professor-content .card .title {
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-transform: capitalize;
+}
+#our-professor .professor-content .card .sub-title {
+  color: red;
+  text-transform: capitalize;
+}
+
+#our-professor .professor-content .card p {
+  font-weight: 200;
+  margin-top: 1rem;
+}
+
+/* Live experiment */
+#live-experiment h1 {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-weight: 200;
+  padding: 2rem;
+}
+
+#live-experiment .experiment-content {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4rem;
+}
+
+#live-experiment .experiment-content img {
+  display: block;
+  border-radius: 50%;
+  max-width: 25%;
+  flex: 4;
+}
+
+#live-experiment .experiment-content .experiment-text {
+  flex: 8;
+  margin-left: 2rem;
+}
+#live-experiment .experiment-content .experiment-text p:first-child {
+  color: red;
+  text-transform: capitalize;
+}
+#live-experiment .experiment-content .experiment-text h2 {
+  font-size: 1.8rem;
+  font-weight: 200;
+  text-transform: capitalize;
+}
+#live-experiment .experiment-content .experiment-text p {
+  margin-top: 1rem;
+  line-height: 1.7rem;
+  font-weight: 200;
+}
+
+/* Get started */
+#get-started {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background: url(../img/banner3.jpg) no-repeat center center / cover;
+  color: #fff;
+}
+#get-started .started-content h1 {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-weight: 200;
+  padding: 2rem;
+}
+
+#get-started .started-content p {
+  line-height: 1.8rem;
+  font-weight: 200;
+}
+
+#get-started .started-content a {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background: red;
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 2.5rem 0;
+}
+#get-started .started-content a:hover {
+  background: #fff;
+  color: red;
+}
+
+/* Course list */
+#courses {
+  padding-bottom: 2rem;
+}
+#courses h1 {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-weight: 200;
+  padding: 2rem;
+}
+
+#courses .course-list {
+  display: flex;
+}
+
+#courses .course-list .card {
+  border: 1px solid #eee;
+  border-radius: 0.50rem;
+  margin-right: 1.5rem;
+}
+#courses .course-list .card img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
+}
+#courses .course-list .card .card-body {
+  padding: 1rem;
+}
+#courses .course-list .card h2 {
+  font-size: 1.6rem;
+  font-weight: 200;
+  text-transform: capitalize;
+}
+
+#courses .course-list .card p {
+  line-height: 1.8rem;
+  font-weight: 200; 
+  margin-top: 1rem;
+}
+
+/* Completation */
+#completation {
+  padding: 3rem 0;
+}
+#completation .container {
+  display: flex;
+  justify-content: space-between; 
+}
+#completation .container .item {
+  border-right: 1px solid rgb(202, 202, 202);
+  padding: 0 8rem;
+  text-align: center;
+}
+#completation .container .item:last-child {
+  border-right: 0;
+}
+#completation .container h2 {
+  font-size: 1.6rem;
+  font-weight: 200;
+  text-transform: capitalize;
+}
+
+#completation .container p {
+  line-height: 1.8rem;
+  font-weight: 200;
+  text-transform: capitalize;
+}
+
+/* Testmonial */
+#testmonial {
+  background: url(../img/banner2.jpg) no-repeat center center / cover;
+  color: #fff;
+}
+
+#testmonial h1 {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-weight: 200;
+  padding: 2rem;
+}
+#testmonial .test-content {
+  display: flex;
+  padding-bottom: 2rem;
+  justify-content: center;
+  align-content: center;
+}
+#testmonial .test-content .text {
+  margin-left: 4rem;
+}
+
+#testmonial .test-content img {
+  border-radius: 50%;
+  max-width: 90%;
+  display: block;
+}
+#testmonial .test-content p {
+  line-height: 1.8rem;
+  padding: 1rem 0;
+  font-weight: 200;
+  font-style: italic;
+}
+
+#testmonial .test-content h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: red;
+}
+
+/* Footer */
+#main-footer {
+    background-color: #191818;
+}
+#main-footer .logo {
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.753);
+  padding: 1rem 0;
+}
+#main-footer .contact.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(128, 128, 128);
+  font-weight: 200;
+  
+}
+#main-footer .contact.container > div {
+  padding: 1rem;
+}
+#main-footer .contact.container i {
+  color: red;
+  margin-right: 0.5rem;
+}
+
+#main-footer .copy-right {
+  text-align: center;
+  color: rgb(141, 0, 0);
+  padding: 1rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.13);
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-weight: 200;
+}
