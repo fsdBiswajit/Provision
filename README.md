@@ -1,4 +1,4 @@
-# Provision
+# Provision (Static website)
 
 provision is a static responsive website.
 
