@@ -12,4 +12,6 @@ Basically, provision is a w3layout theme. I made a clone. Write code from scratc
 * Row HTML CSS (No framework)
 * Full responsive (Mobile friendly)
 
-### This is the first time I made a website responsive.
+### Index
+
+![Index](img/index.png?raw=true 'Title')
