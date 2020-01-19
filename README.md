@@ -1,6 +1,6 @@
 # Provision (Responsive)
 
-provision is a static responsive website.
+provision is a responsive website.
 
 ## Project idea
 
